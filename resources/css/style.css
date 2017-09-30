@@ -31,21 +31,26 @@ h1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
 
-.title {
+#title {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
 
-.title a {
+#title a {
   font-size: 18px;
   color: white;
 }
 
 .footer {
   background-color: dimgray;
-  font-size: 12px;
+  font-size: 11px;
   color: white;
+  display: block;
+  text-align: left;
+}
+.footer a {
+  color: white;
+  font-size: 18px;
+  
 }
 
-.copyright {
-  font-size: 11px
 }
